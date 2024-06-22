@@ -1,0 +1,57 @@
+PS C:\Users\Leonid2\Documents\practic\practicum> git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\Leonid2\Documents\practic\practicum> git branch
+  firsty
+* main
+PS C:\Users\Leonid2\Documents\practic\practicum> git log
+commit e53345dc471d68a6e56b4fff50073c3674ca1da5 (HEAD -> main)
+Merge: 5facf68 0ce3c0b
+Author: leonestera <rubakleo@gmail.com>
+Date:   Sat Jun 22 20:31:55 2024 +0300
+
+    Merge branch 'main' of https://github.com/leonestera/practicum
+
+commit 0ce3c0b962202fa4b707e91faed9dd91a3296c3c (origin/main, origin/HEAD)
+Author: leonestera <145483775+leonestera@users.noreply.github.com>
+Date:   Sat Jun 22 20:25:18 2024 +0300
+
+    Create empty.html
+
+commit 5facf688b04ed0e303935212a335fbcb971158f0
+Author: leonestera <rubakleo@gmail.com>
+Date:   Sat Jun 22 20:04:39 2024 +0300
+
+    new file
+
+commit eaede10c7a96caf7ee09075c2f66336c2afe91af
+Author: leonestera <rubakleo@gmail.com>
+Date:   Sat Jun 22 19:41:12 2024 +0300
+
+    chench text
+
+commit f127bc59df91e9dad82555908a92b18bcbe2ea55
+Author: leonestera <rubakleo@gmail.com>
+Date:   Sat Jun 22 19:26:04 2024 +0300
+
+    text
+
+commit dafaab53ea7b1ccd1f174e4dc551529a707a507a
+Author: leonestera <rubakleo@gmail.com>
+Date:   Sat Jun 22 16:00:59 2024 +0300
+
+    add
+
+commit 7f4e99ffd316773f08cc3553c4c0375ae06bc987
+Author: leonestera <145483775+leonestera@users.noreply.github.com>
+Date:   Sat Jun 22 15:23:13 2024 +0300
+
+    Initial commit
+PS C:\Users\Leonid2\Documents\practic\practicum> git log-merges
+git: 'log-merges' is not a git command. See 'git --help'.
+PS C:\Users\Leonid2\Documents\practic\practicum> git log -merges
+fatal: unrecognized argument: -merges
+PS C:\Users\Leonid2\Documents\practic\practicum>
